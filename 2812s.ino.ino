@@ -14,7 +14,7 @@
     //   strip.setPixelColor(203+i, colours[c]); // 设置第9个LED的颜色  红色203-220
 //颜色只跑到10，后面颜色太深不好看
 #include <Adafruit_NeoPixel.h>
-//创作不易，使用时，请知道是我的代码laoliuiot 
+//创作不易，使用时，请知道是我的bug代码laoliuiot 
 // 定义WS2812的数量
 #define NUM_LEDS 220
 
