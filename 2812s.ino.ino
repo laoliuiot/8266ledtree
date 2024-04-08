@@ -341,7 +341,9 @@ strip.clear();
 
  
 }
-void loop() {
+void shengkong()//声控传感器
+{
+
 
  int soundLevel = analogRead(micPin);
 
@@ -406,6 +408,10 @@ if(soundLevel>320) { turnOnLEDs(1,58,colours[9]);//点亮全树干
       if(soundLevel>500) { huaduonquan(16);   } 
       if(soundLevel>510) { huaduonquan(17);   } 
       if(soundLevel>520) { huaduonquan(18);   } 
-   } 
-
+   }   
+}
+void loop() {
+shengkong();//声控传感器
+//fenhuolun(){ //特效2 风火轮
+//baozhumofang(); //特效2烟花效果
 }
